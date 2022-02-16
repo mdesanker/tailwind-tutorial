@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-tutorial",
+  "version": "1.0.0",
+  "description": "Food website created for a tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/styles.css -o ./public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdesanker/tailwind-tutorial.git"
+  },
+  "author": "Michael Desanker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdesanker/tailwind-tutorial/issues"
+  },
+  "homepage": "https://github.com/mdesanker/tailwind-tutorial#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
